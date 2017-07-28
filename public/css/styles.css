@@ -14,20 +14,60 @@ body {
 
 #title-panel {
   width: inherit;
-  padding: 20px;
+  padding: 10px;
+}
+
+#links-panel {
+  width: inherit;
+  padding: 10px;
+}
+
+#links-panel:hover #main_container {
+  background-image: url(/images/blurry_bird.png);
+
+}
+
+ul {
+  float: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding-left: 32px;
+    text-decoration: none;
+}
+
+a {
+  text-decoration: none;
 }
 
 h1 {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #cdb6a6;
   font-size: 48pt;
 }
 
+
 h2 {
   font-family: 'Nunito', sans-serif;
-  color: white;
+  color: #cdb6a6;
   font-weight: lighter;
   font-size: 32pt;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+}
+
+h2:hover {
+  color: white;
+  #main-container.background-image: url(/images/blurry_bird.png);
 }
 
 h3, h4, h5, p, th {
